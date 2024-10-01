@@ -5,7 +5,7 @@
     margin: auto;
     padding: 0px 140px;
     margin-bottom: 150px;
-    background: linear-gradient(180deg, #e69d00 0%, #e1ffea22 60%);
+    background: linear-gradient(180deg,  #C5C5C7, #ffffff22 60%);
 
 }
 
@@ -32,13 +32,18 @@
     width: 282px;
     height: 70px;
     border-radius: 35px;
-    background: #ff4141;
+    background: #000000;
     border: none;
     color: white;
     font-size: 22px;
     font-weight: 500;
     margin-top: 30px;
+
+}
+.offers-left button:hover{
     cursor: pointer;
+    background-color: #313131;
+
 }
 
 .offers-right{
