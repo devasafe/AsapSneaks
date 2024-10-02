@@ -4,6 +4,7 @@
     padding: 16px;
     box-shadow: 0 1px 3px -2px rgb(255, 255, 255);
     background-color: #ee0606;
+    align-items: center;
 }
 
 .nav-logo{
@@ -169,12 +170,32 @@ height: 90px;
             height: 80px;
             width: 100%;
             position: absolute;
-            background-color: white;
+            background-color: black;
             justify-content: center;
-            top: 50px;
+            top: 100px;
         }
         .nav-menu-visible{
           display: flex;  
         }
+        .nav-dropdown.open{
+            transform: rotate(90deg);
+        }
 
+    }
+    @media(max-width:500px){
+        .navbar{
+            width: 8px 0px;
+            gap: 0;
+        }
+        .nav-logo{
+            transform: scale(0.8);
+        }
+        .nav-menu{
+            height: 70px;
+            top: 50px;
+
+        }
+        .nav-login-cart{
+            transform: scale(0.8);
+        }
     }
