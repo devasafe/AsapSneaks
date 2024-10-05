@@ -77,8 +77,8 @@
 }
 @media(max-width:500px){
     .popular{
-        height: 50vh;
-        margin-top: 50px;
+        height: 90vh;
+
     }
     .popular-item{
         display: grid;
@@ -86,10 +86,5 @@
         gap: 20px;
 
     }
-    .popular h1{
-        font-size: 20px;
-    }
-    .popular hr{
-        width: 100px;
-    }
+
 }
