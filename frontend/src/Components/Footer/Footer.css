@@ -5,6 +5,10 @@
     align-items: center;
     gap: 50px;
 }
+.footer-logo img{
+    width: 90px;
+    height: 90px;
+}
 
 .footer-logo{
     display: flex;
@@ -72,7 +76,7 @@
     }
 
     .footer-logo img{
-        width: 40px;
+        width: 40px 40px;
     }
     .footer-logo p{
         font-size: 25px;
