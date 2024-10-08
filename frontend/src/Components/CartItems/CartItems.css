@@ -20,6 +20,9 @@
     font-weight: 600;
 }
 
+.cartitems-remove-icon{
+    cursor: pointer;
+}
 .cartitems-format{
     font-size: 17px;
     font-weight: 500;
